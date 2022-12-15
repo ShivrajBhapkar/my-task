@@ -1,0 +1,26 @@
+<svg x="0" y="0" width="32" height="32">
+          <rect
+            x="0"
+            y="0"
+            width="32"
+            height="32"
+            transform="translate(-3.8773108091191566 4.1005568381104744) rotate(240.8 16 16)"
+            fill="#238CE1"
+          ></rect>
+          <rect
+            x="0"
+            y="0"
+            width="32"
+            height="32"
+            transform="translate(-12.263779287205747 4.596357072650825) rotate(165.3 16 16)"
+            fill="#018E77"
+          ></rect>
+          <rect
+            x="0"
+            y="0"
+            width="32"
+            height="32"
+            transform="translate(10.7193656279296 -23.451099850798762) rotate(352.7 16 16)"
+            fill="#035E59"
+          ></rect>
+        </svg>

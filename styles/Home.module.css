@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -126,4 +126,309 @@
   .logo img {
     filter: invert(1);
   }
+} */
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 16px;
+  align-items: center;
+  background-color: #f2f4f6;
+  position: relative;
+  z-index: 12;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.box {
+  color: #535a61;
+}
+.header_content {
+  display: flex;
+  flex-direction: row;
+}
+.app_header__container {
+  padding-left: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.color_indicator {
+  background-color: #29b6af;
+  border-radius: 8px;
+  height: 12px;
+  width: 12px;
+  margin: 10px;
+}
+.account_menu__icon {
+  position: relative;
+  border: 0;
+  background: none;
+  margin-left: 25px;
+}
+.chip_with_right_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px #bbc0c5 solid;
+  border-radius: 25px;
+  padding: 10px;
+}
+.identicon__address_wrapper {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  height: 38px;
+  width: 40px;
+  border-radius: 20px;
+  border-color: #037dd6;
+}
+.identicon_inner {
+  border-radius: 50px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: rgb(249, 14, 1);
+}
+.inside_container_header_menu {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.account {
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #24272a;
+  font-size: 1rem;
+}
+.code {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #535a61;
+}
+.inside_container_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-bottom: 2px solid #d6d9dc;
+}
+.option_container {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
+.inside_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  width: 5px;
+  height: 5px;
+  margin: 2px;
+  background-color: #24272a;
+  border-radius: 5px;
+}
+.home_balance_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 0 auto;
+}
+.wallet_overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  min-height: 209px;
+  min-width: 0;
+  padding-top: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+.wallet_overview_balance {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.wallet_image {
+  background: #24272a;
+  direction: ltr;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wallet_icon {
+  border-radius: 16px;
+  border: 1px solid #bbc0c5;
+}
+.curreny_number {
+  color: #24272a;
+  font-size: 25px;
+}
+.currency {
+  padding-left: 4px;
+  font-size: 25px;
+  color: #24272a;
+}
+.balance_usd {
+  font-size: 11px;
+  color: #24272a;
+}
+.wallet_overview_buttons {
+  display: flex;
+  flex-direction: row;
+  height: 68px;
+  margin-bottom: 24px;
+}
+.icon_button {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: unset;
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: pointer;
+  color: #037dd6;
+  border: none;
+}
+.icon_button__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  background: #037dd6;
+  border-radius: 18px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.tab button {
+  cursor: pointer;
+  min-width: 50px;
+  text-align: center;
+  width: 100%;
+  border: none;
+}
+.tabs_list {
+  display: flex;
+  list-style: none;
+}
+
+.tab {
+  width: 50%;
+}
+.assets {
+  color: #037dd6;
+}
+.active {
+  box-shadow: 0 2px 1px 0 #037dd6;
+}
+.home_link {
+  /* color: #037dd6; */
+  display: flex;
+}
+.portfolio_container {
+  display: flex;
+  padding: 12px 0;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home__subheader_link_text {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140.62%;
+  color: #037dd6;
+}
+.current_balance_container {
+  display: flex;
+  border-top: 1px solid #d6d9dc;
+  border-bottom: 1px solid #d6d9dc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.list_item__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+.list_item__heading button {
+  border: none;
+}
+.symbol_wallet_icon {
+  margin-right: 8px;
+}
+.amount {
+  font-size: 20px;
+  padding-right: 8px;
+}
+.amount_currency {
+  font-size: 20px;
+}
+.current_amount {
+  color: #6a737d;
+}
+.list_item_right_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upper_bottom_container h6 {
+  font-weight: normal;
+  color: #535a61;
+}
+.links {
+  font-size: 0.875rem;
+  font-family: "Euclid Circular B", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: normal;
+  display: inline;
+  padding: 0 5px 16px;
+  color: #037dd6;
+}
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.help_link {
+  color: #037dd6;
 }
